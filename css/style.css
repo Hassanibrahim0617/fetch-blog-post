@@ -1,22 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box;
 }
-main{
+
+main {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    ;
+    margin: 10px auto;
 }
-main div{
+
+main div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   max-width: 200px;
+    max-width: 200px;
     min-width: 100px;
     height: 200px;
     background-color: #fff;
@@ -25,27 +27,30 @@ main div{
     border: .25px solid #000;
     border-radius: 5px;
 }
-main div h4{
+
+main div h4 {
     text-align: left;
     margin-bottom: 5px;
     float: left;
-    
+
 }
-main div p{
+
+main div p {
     text-align: left;
     margin-bottom: 5px;
 }
-main div button{
+
+main div button {
     padding: 3px 40px;
     margin-top: 5px;
-    border-radius:5px ;
+    border-radius: 5px;
     border: none;
     background-color: royalblue;
     color: #fff;
-  font-size: 16px;
-  transform: .3s ease;
-  cursor: pointer;
+    font-size: 16px;
+    cursor: pointer;
 }
+
 main div button:hover {
     background-color: rgb(56, 90, 194);
-  }
+}
