@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Setting up a real workspace",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassanibrahim0617/workspace.git"
+  },
+  "author": "Ibrahim Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hassanibrahim0617/workspace/issues"
+  },
+  "homepage": "https://github.com/Hassanibrahim0617/workspace#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
