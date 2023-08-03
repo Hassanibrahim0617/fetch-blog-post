@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: relative;
     justify-content: space-between;
     border-bottom: .2px solid #c4d9f3;
     height: 10px;
@@ -29,7 +29,7 @@ nav {
 
 nav h1 {
     color: #e5edf9;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 700;
     padding: 2rem 0 2rem 5rem;
     margin: 1rem;
@@ -58,7 +58,7 @@ nav ul li a {
 nav input {
     border: 1px solid gray;
     padding: 12px 38px;
-    border-radius: 7px;
+    border-radius: 50px;
     outline: none;
     font-size: 18px;
     opacity: 70%;
@@ -66,16 +66,12 @@ nav input {
 }
 
 nav button {
-    margin-right: 4.8rem;
+    margin-right: 6.8rem;
     margin-bottom: .2rem;
     padding: 9px 20px;
-    border-radius: 7px;
+    border-radius: 50px;
     background-color: #3077c7;
-    color: #e5edf9;
-    font-size: 18px;
-    font-weight: 500;
     cursor: pointer;
-    text-transform: capitalize;
     box-shadow: #1a3f70 0px 14px 28px, #1b4a89 0px 10px 10px;
     border: none;
 }
@@ -91,47 +87,43 @@ nav button:active {
 nav button img {
     width: 20px;
     height: 20px;
-    color: #e5edf9;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 1000px;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
 }
 
 main .main-div {
-    margin: 5.5rem auto 0 auto;
-    border: .25px solid #000;
+    margin: 1.5rem auto 0 0;
+    border: none;
     border-radius: 5px;
     background-color: #fff;
-    max-width: 170px;
+    max-width: 700px;
     min-width: 100px;
-    height: 220px;
+    height: 250px;
     gap: 5px;
 }
 
 main .main-div div:hover {
+    border: .5px solid #91b9e8;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, #1a3f70 0px 1px 3px 1px;
-    height: 250px;
+    height: 260px;
 }
 
 main .main-div div {
     display: flex;
     flex-direction: column;
-    max-width: 170px;
+    max-width: 700px;
     min-width: 100px;
-    height: 220px;
-    align-items: center;
-    justify-content: center;
+    height: 250px;
+    align-items: first baseline;
+    justify-content: left;
     background-color: #e5edf9;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    padding: 1rem;
 }
 
 main div h4 {

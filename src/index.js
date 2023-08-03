@@ -14,7 +14,7 @@ function fetchData() {
                 <div class="main-div" data-title="${title}" data-desc="${body}">
              <div>
                 <h4>${title}</h4>
-                <p>${body.slice(0, 40)}...</p>
+                <p>${body.slice(0, 50)}...</p>
                 <a href="./content.html?${id}"><button>read more</button></a>
              </div>
              </div>
